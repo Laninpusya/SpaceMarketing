@@ -100,7 +100,7 @@
   https://твой-домен.up.railway.app  
 
 - **Telegram-канал с логами:**  
-  https://t.me/твой_канал_здесь  
+  https://t.me/E8RnNehT80Y1YTMy
 
 ---
 
