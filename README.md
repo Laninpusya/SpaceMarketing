@@ -25,7 +25,7 @@
 - **База данных:** MySQL (SQLite локалка)  
 - **Проверки доменов:** PHP-скрипт + GuzzleHttp  
 - **Уведомления:** Telegram (`laravel-notification-channels/telegram`)  
-- **Деплой:** 
+- **Деплой:** railway.com
 
 ---
 
@@ -43,7 +43,7 @@
 
 ### 4.1. Клонирование репозитория
 
-    git clone https://github.com/
+    git clone https://github.com/Laninpusya/SpaceMarketing
 
 ### 4.2. Установка зависимостей
 
@@ -67,8 +67,6 @@
 ### 4.6. Сборка фронтенда
 
     npm run dev
-
-⚠️ Окно терминала оставить открытым.
 
 ### 4.7. Запуск сервера
 
@@ -97,22 +95,11 @@
 ## 6. Демо
 
 - **Живая версия:**  
-  https://твой-домен.up.railway.app  
+  https://spacemarketing-production.up.railway.app/domains
 
 - **Telegram-канал с логами:**  
   https://t.me/E8RnNehT80Y1YTMy
 
 ---
 
-## 7. Примечания
-
-- SSL-проверка в Guzzle отключена (`verify => false`) для упрощения деплоя.  
-  В продакшене рекомендуется подключить `cacert.pem`.
-
-- Уведомления отправляются только при неудачных проверках (**DOWN / ERROR**).
-
-- Для тестового задания cron реализован в виде простого бесконечного цикла в отдельном сервисе.
-
----
-
-## 8. Автор @dmt_lanin
+## 7. Автор @dmt_lanin
